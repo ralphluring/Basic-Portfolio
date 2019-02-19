@@ -1,0 +1,191 @@
+body{
+  
+font-family: 'Oxygen', sans-serif;
+}
+
+.container{
+    background-image: url(../images/terrazo.png);
+    width: 100%;
+    background-color: #fff;
+    display:grid;
+    grid-template-rows: 75px 1fr 50px;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.header{
+    background-color: #fff;
+    align-self: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;;
+}
+
+.nav__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav__item:last-child{
+    border:none;
+}
+
+.nav__item {
+border-right:1px solid black;
+text-align: center;
+padding: 5px;
+}
+
+.nav__item__link{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:#000;
+}
+
+.logo{
+    height: 100%;
+    background-color:#4aaaa5;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    color:#fff;
+    font-family: 'Righteous', cursive;
+}
+
+
+.main{
+    width: 960px;
+    background-color: #fff;
+    justify-self: center;
+    border-radius: 20px;
+}
+
+
+.about{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.about__header{
+    display: flex;
+    align-items: center;
+    width: 72%;
+    justify-self: center;
+    border-bottom: 2px solid grey;
+}
+
+.about__header h1{
+    font-size: 1.2rem;
+    color:#4aaaa5;
+
+}
+
+.about__body{
+display: grid;
+width: 80%;
+justify-self: center;
+grid-auto-flow: column;
+padding: 20px;
+}
+
+.about__body__img{
+    padding: 10px;
+}
+
+.about__body__text{
+    padding: 10px;
+}
+
+.about__body__p{
+    padding: 15px;
+    line-height: 1.3rem;
+}
+
+.about__body label{
+    padding:10px;
+}
+
+.contact__form{
+    padding: 20px;
+}
+
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio__item{
+    height: 200px;
+    padding: 25px;
+}
+
+.portfolio__img__h1{
+    background-color: #4aaaa5;
+    position:relative;
+    bottom:60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size: 1.2rem;
+}
+
+
+.form__element{
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+}
+
+.form__element input{
+    border-style: solid;
+    font-size: 1.3rem;
+}
+
+.form__element textarea{
+    border-style: solid;
+    border-color:black;
+    border-width: 2px;
+}
+
+.footer{
+    background-color: grey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:8px solid #4aaaa5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 50px;
+}
+
+.form__button{
+    background-color: #4aaaa5;
+    margin-top: 20px;
+    padding: 10px;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__button button{
+    border: none;
+    box-sizing: unset;
+    background-color: inherit;
+    color: #000;
+}
+
+
+
+
